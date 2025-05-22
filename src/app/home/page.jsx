@@ -11,7 +11,7 @@ export default function HomePage() {
                 <h1> Luiz Gabriel Lopes Carvalho </h1>
                 <Image
                     className={styles.image}
-                    src="/media/maiko.png"
+                    src="/images/luiz.png"
                     alt="Minha foto"
                     width={500}
                     height={500}
@@ -21,10 +21,10 @@ export default function HomePage() {
                 <h3>Instrutores : Thiago Ferreira e Marcelo Carboni</h3>
                 <h3>Matéria: FrontEnd</h3>
                 <h3>Atividade: Avaliação Front-End</h3>
-                <h4>Essa é a minha atividade avaliativa de front end, consumindo a minha API de ferramentas e manutenções, onde ambas as entidades são relacionadas pois as ferramentas têm manutenções. O Objetivo dessa atividade é demonstrar o consumo de uma API RESTful utilizando Next.js.</h4>
+                <h4>Essa é a minha atividade avaliativa de front end, consumindo a minha API de equipamentos e manutenções, onde ambas as entidades são relacionadas pois os equipamentos têm manutenções. O Objetivo dessa atividade é demonstrar o consumo de uma API RESTful utilizando Next.js.</h4>
                 </div>
-                <Link href="/ferramentas" prefetch>
-                    <Button type="primary">Acessar minhas ferramentas</Button>
+                <Link href="/equipamentos" prefetch>
+                    <Button type="primary">Acessar meus equipamentos</Button>
                 </Link>
             </div>
 </div>
