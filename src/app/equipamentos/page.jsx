@@ -66,8 +66,10 @@ export default function Equipamentos() {
   };
 
   return (
-    <div>
+    <div className={styles.container}>
+      <div className={styles.title}>
       <h1>Lista de Equipamentos</h1>
+      </div>
 
       <Pagination
         current={data.current}

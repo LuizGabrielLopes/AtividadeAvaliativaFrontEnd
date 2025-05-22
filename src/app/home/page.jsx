@@ -1,4 +1,4 @@
-import { Button } from "antd";
+import Button from "../../components/Button.jsx";
 import styles from "./Home.module.css";
 import Image from "next/image"
 import Link from "next/link";
@@ -24,7 +24,7 @@ export default function HomePage() {
                 <h4>Essa é a minha atividade avaliativa de front end, consumindo a minha API de equipamentos e manutenções, onde ambas as entidades são relacionadas pois os equipamentos têm manutenções. O Objetivo dessa atividade é demonstrar o consumo de uma API RESTful utilizando Next.js.</h4>
                 </div>
                 <Link href="/equipamentos" prefetch>
-                    <Button type="primary">Acessar meus equipamentos</Button>
+                <Button title="Acessar meus equipamentos" />
                 </Link>
             </div>
 </div>
